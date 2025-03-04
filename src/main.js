@@ -1,8 +1,12 @@
 // main.js
 console.log("módulo main");
 
-import { getMaria, getJoao } from "./joaoEMaria";
+import { getMaria, getJoao, deJoaoParaMaria } from "./joaoEMaria";
 
-console.log('Maria tem', getMaria(), 'maçã(s)!');
-console.log('João tem', getJoãoa(), 'maçã(s)!');
+console.log("Maria tem", getMaria(), "maçã(s)!");
+console.log("João tem", getJoao(), "maçã(s)!");
 
+deJoaoParaMaria();
+
+console.log("Maria tem", getMaria(), "maçã(s)!");
+console.log("João tem", getJoao(), "maçã(s)!");
