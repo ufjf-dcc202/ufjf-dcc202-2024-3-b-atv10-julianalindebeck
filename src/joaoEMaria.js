@@ -13,11 +13,19 @@ function getJoao() {
 }
 
 function setMaria(novoValor) {
-  maria = novoValor;
+  if (novoValor > 0) {
+    maria = novoValor;
+  } else {
+    maria = 0;
+  }
 }
 
 function setJoao(novoValor) {
-  joao = novoValor;
+  if (novoValor > 0) {
+    joao = novoValor;
+  } else {
+    joao = 0;
+  }
 }
 
 export { getMaria, getJoao, setMaria, setJoao };
